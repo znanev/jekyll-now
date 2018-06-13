@@ -123,5 +123,6 @@ esptool.py --port COM5 read_flash 0x0 0x100000 hyleton-313-1M.bin
 When the above command execution completed, original firmware was saved in file *hyleton-313-1M.bin*. A quick glimpse with a HEX editor showed what I already suspected - the firmware was based on [Tuya's Smart Cloud Platform](https://docs.tuya.com/en/cloudapi/index.html), which is referenced in the firmware via numerous endpoint strings like `http://a.gw.tuyaeu.com/gw.json` and `http://a.gw.tuyaus.com/gw.json` ([Tuya Cloud Api endpoints](https://docs.tuya.com/en/cloudapi/cloud_access.html#call-the-entry)).
 
 ## Upload custom firmware
+The firmware I use on all my Smart WiFi devices is [Sonoff-Tasmota](https://github.com/arendst/Sonoff-Tasmota). Although it contains ITEAD's brand *Sonoff* in its name, this firmware is in fact quite versatile and you can use it on almost any ESP8266-based device.
 
 ## Configuration
