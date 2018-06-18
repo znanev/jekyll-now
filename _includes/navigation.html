@@ -1,0 +1,6 @@
+{% assign links = site.data.menu %}
+
+{% for link in links %}
+&nbsp;&nbsp;&nbsp;
+<small><a href="{{ link.url  }}">{{ link.name }}</a></small>
+{% endfor %}
