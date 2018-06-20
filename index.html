@@ -8,15 +8,18 @@ title: Home
 	  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="date">
-        {{ post.date | date: '%B %d, %Y' }}
+        {{ post.date | date: '%A, %-d %B %Y' }}
       </div>
-
+	  
+      <br />
+	  
 	  <div class="entry">
 		{{ post.excerpt }}
 	  </div>
 	  
 	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-  </article>
+    </article>
+	<br />
 {% endfor %}
 </div>
 
