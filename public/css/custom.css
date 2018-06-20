@@ -1,0 +1,41 @@
+.navigation-buttons {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+  text-align: center;
+}
+.navigation-buttons a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.navigation-buttons small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
+.date-header span {
+    background-color: #20b5b5;
+    color: #ffffff;
+    padding: 0.4em;
+    letter-spacing: 3px;
+    margin: inherit;
+}
