@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-A blog about hardware tinkering
+A blog about hardware and software tinkering
