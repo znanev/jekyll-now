@@ -38,7 +38,7 @@ Same layout, even same hardware revision.
 
 Following along the issue mentioned ([#1419](https://github.com/arendst/Sonoff-Tasmota/issues/1419)) reveals the following treasures:
 
-[FCC ID 2AKBPESP8266-S3](https://fccid.io/2AKBPESP8266-S3) - FCC
+[FCC ID 2AKBPESP8266-S3](https://fccid.io/2AKBPESP8266-S3)
 
 [ESP8266-S3 WiFi Module Datasheet](https://fccid.io/2AKBPESP8266-S3/User-Manual/User-Manual-3594791.pdf)
 
